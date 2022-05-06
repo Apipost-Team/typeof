@@ -14,7 +14,7 @@ boolean
 
 `$$.isArray([]) // true`
 
-| demo | return |
+| example | return |
 | ---- | ------ |
 | $$.isArray([]) | true |
 | $$.isBoolean(!1) | true |
