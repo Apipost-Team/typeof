@@ -3,9 +3,11 @@
 返回 Javascript 变量类型，用于代替 typeof。
 
 **methods**
+
 isArray, isBoolean, isDate, isFunction, isNaN, isNumber, isInteger, isObject, isRegExp, isUndefined, isString, isNull
 
 **return**
+
 boolean
 
 **example**
