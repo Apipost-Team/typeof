@@ -1,9 +1,9 @@
 !function (r) {
     /*
      * https://github.com/Apipost-Team/typeof
-     * methods: isArray, isBoolean, isDate, isFunction, isNaN, isNumber, isObject, isRegExp, isUndefined, isString
+     * methods: isArray, isBoolean, isDate, isFunction, isNaN, isNumber, isInteger, isObject, isRegExp, isUndefined, isString, isNull
      * returns: boolean
-     * example: $.isArray([]) // true
+     * example: $$.isArray([]) // true
      */
 
     'Array Boolean Date Function NaN Number Integer Object RegExp String Undefined Null'.split(' ').forEach(function (type) {
@@ -12,5 +12,5 @@
       };
     });
   
-    window.typeof = r;
+    window.$$ = r;
   }([]);
